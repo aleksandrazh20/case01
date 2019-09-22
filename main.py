@@ -32,6 +32,18 @@ def square(x, y, a, color) :
     # TODO: (Nastya) Paint a square.
     pass
 
+def triangle_type_6(x, y, a, color) :
+    # TODO: (Nastya) Paint a triangle.
+    pass
+
+def triangle_type_7(x, y, a, color) :
+    # TODO: (Nastya) Paint a triangle.
+    pass
+
+def triangle_type_8(x, y, a, color) :
+    # TODO: (Nastya) Paint a triangle.
+    pass
+
 def main() :
     pass
 
@@ -153,6 +165,40 @@ def square(x, y, a) :
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
+
+def triangle_type_6(x, y, a, color) :
+    b = (a * a + a * a) ** 0.5
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.right(45)
+    turtle.forward(b)
+    turtle.right(135)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+
+def triangle_type_6(x, y, a, color) :
+    b = (a * a + a * a) ** 0.5
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.forward(a)
+    turtle.right(135)
+    turtle.forward(b)
+    turtle.right(135)
+    turtle.forward(a)
+
+def triangle_type_8(x, y, a, color) :
+    b = (a * a + a * a) ** 0.5
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(135)
+    turtle.forward(b)
 
 
 def main() :
