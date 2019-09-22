@@ -44,11 +44,11 @@ def triangle_type_8(x, y, a, color) :
     # TODO: (Nastya) Paint a triangle.
     pass
 
-def rectangle_type_3(x, y, a, color) :
+def rectangle_type_3(x, y, a, b, color) :
     # TODO: (Sasha) Paint a rectangle.
     pass
 
-def rectangle_type_4 (x, y, a, color) :
+def rectangle_type_4 (x, y, a, b, color) :
     # TODO: (Sasha) Paint a rectangle.
     pass
 import turtle
@@ -249,5 +249,12 @@ def rectangle_type_3(x, y, a, b) :
     turtle.right(45)
     turtle.forward(b)
 
+def main():
+    rectangle_type_3(10, 90, 10, 12)
+    square(15, 60, 12, 'red')
+    triangle_type_3(15, 54, 12)
 
+    turtle.done()
+
+main()
 
