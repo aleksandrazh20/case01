@@ -44,11 +44,14 @@ def triangle_type_8(x, y, a, color) :
     # TODO: (Nastya) Paint a triangle.
     pass
 
-def main() :
+def rectangle_type_3(x, y, a, color) :
+    # TODO: (Sasha) Paint a rectangle.
     pass
 
+def rectangle_type_4 (x, y, a, color) :
+    # TODO: (Sasha) Paint a rectangle.
+    pass
 import turtle
-
 
 def triangle_type_2(x, y, a, color) :
     b = (a * a + a * a) ** 0.5
