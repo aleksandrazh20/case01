@@ -123,7 +123,7 @@ def square(x, y, a, color) :
     turtle.forward(a)
     turtle.right(90)
 
-def triangle_type_2(x, y, a) :
+def triangle_type_3(x, y, a) :
     '''
     Function, drawing square.
     :param x: upper left corner coordinate x
@@ -144,7 +144,7 @@ def triangle_type_2(x, y, a) :
     turtle.forward(a*a*2)
 
 
-def square(x, y, a) :
+def rectangle_type_1(x, y, a, color) :
     '''
 
     :param x: upper left corner coordinate x
@@ -178,7 +178,7 @@ def triangle_type_6(x, y, a, color) :
     turtle.right(90)
     turtle.forward(a)
 
-def triangle_type_6(x, y, a, color) :
+def triangle_type_7(x, y, a, color) :
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -201,7 +201,3 @@ def triangle_type_8(x, y, a, color) :
     turtle.forward(b)
 
 
-def main() :
-    square()
-
-main()
