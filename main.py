@@ -204,3 +204,50 @@ def triangle_type_8(x, y, a, color) :
     turtle.forward(b)
 
 
+def rectangle_type_4(x, y, a, b) :
+    '''
+
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a rectangle
+    :param b: side length of a rectangle
+    :param color:
+    :return: None
+    '''
+
+    turtle.up()
+    turtle.setposition(x,y)
+    turtle.down()
+    turtle.forward(a)
+    turtle.right(45)
+    turtle.forward(b)
+    turtle.right(135)
+    turtle.forward(a)
+    turtle.right(45)
+    turtle.forward(b)
+
+def rectangle_type_3(x, y, a, b) :
+    '''
+
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a rectangle
+    :param b: side length of a rectangle
+    :param color:
+    :return: None
+    '''
+
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.right(45)
+    turtle.forward(a)
+    turtle.right(45)
+    turtle.forward(b)
+    turtle.right(135)
+    turtle.forward(a)
+    turtle.right(45)
+    turtle.forward(b)
+
+
+
