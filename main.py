@@ -110,3 +110,52 @@ def square(x, y, a, color) :
     turtle.right(90)
     turtle.forward(a)
     turtle.right(90)
+
+def triangle_type_2(x, y, a) :
+    '''
+    Function, drawing square.
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a triangle
+    :return: None
+    '''
+
+    turtle.up()
+    turtle.setposition(x,y)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.down()
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(135)
+    turtle.forward(a*a*2)
+
+
+def square(x, y, a) :
+    '''
+
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a triangle
+    :return: None
+    '''
+
+    turtle.up()
+    turtle.setposition(x,y)
+    turtle.forward(a)
+    turtle.down()
+    turtle.right(45)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+
+
+def main() :
+    square()
+
+main()
