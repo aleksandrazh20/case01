@@ -144,7 +144,8 @@ def triangle_type_3(x, y, a) :
     turtle.right(90)
     turtle.forward(a)
     turtle.right(135)
-    turtle.forward(a*a*2)
+    turtle.forward((a*a*2)**0.5)
+
 
 
 def rectangle_type_1(x, y, a, color) :
