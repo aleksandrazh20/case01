@@ -395,8 +395,6 @@ def rectangle_type_3(x, y, a, b) :
     turtle.forward(b)
     turtle.end_fill()
 
-
-
 def fish():
     triangle_type_3(-199, 299, 60)
     triangle_type_8(-200, 360, 60)
