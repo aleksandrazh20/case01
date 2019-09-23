@@ -44,25 +44,16 @@ def triangle_type_8(x, y, a, color) :
     # TODO: (Nastya) Paint a triangle.
     pass
 
-def rectangle_type_3(x, y, a, b, color) :
+def rectangle_type_3(x, y, a, color) :
     # TODO: (Sasha) Paint a rectangle.
     pass
 
-def rectangle_type_4 (x, y, a, b, color) :
+def rectangle_type_4 (x, y, a, color) :
     # TODO: (Sasha) Paint a rectangle.
     pass
 import turtle
 
-def triangle_type_2(x, y, a, color) :
-
-    '''
-    Function, drawing triangle.
-    :param x: upper left corner coordinate x
-    :param y: upper left corner coordinate y
-    :param a: side length of a triangle
-    :return: None
-    '''
-
+def triangle_type_2(x, y, a) :
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -75,16 +66,7 @@ def triangle_type_2(x, y, a, color) :
     turtle.forward(b)
     turtle.right(90)
 
-def triangle_type_5(x, y, a, color) :
-
-    '''
-    Function, drawing triangle.
-    :param x: upper left corner coordinate x
-    :param y: upper left corner coordinate y
-    :param a: side length of a triangle
-    :return: None
-    '''
-
+def triangle_type_5(x, y, a) :
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -95,18 +77,8 @@ def triangle_type_5(x, y, a, color) :
     turtle.forward(a)
     turtle.right(135)
     turtle.forward(b)
-    turtle.left(45)
 
-def rectangle_type_2(x, y, a, b, color) :
-
-    '''
-    Function, drawing rectangle.
-    :param x: upper left corner coordinate x
-    :param y: upper left corner coordinate y
-    :param a: side length of a rectangle
-    :return: None
-    '''
-
+def rectangle_type_2(x, y, a, b) :
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
@@ -117,18 +89,8 @@ def rectangle_type_2(x, y, a, b, color) :
     turtle.forward(a)
     turtle.right(135)
     turtle.forward(b)
-    turtle.right(135)
 
-def triangle_type_1(x, y, a, color):
-
-    '''
-    Function, drawing triangle.
-    :param x: upper left corner coordinate x
-    :param y: upper left corner coordinate y
-    :param a: side length of a triangle
-    :return: None
-    '''
-
+def triangle_type_1(x, y, a):
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -138,18 +100,8 @@ def triangle_type_1(x, y, a, color):
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
-    turtle.right(135)
 
-def triangle_type_4(x, y, a, color) :
-
-    '''
-    Function, drawing triangle.
-    :param x: upper left corner coordinate x
-    :param y: upper left corner coordinate y
-    :param a: side length of a triangle
-    :return: None
-    '''
-
+def triangle_type_4(x, y, a) :
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -160,18 +112,8 @@ def triangle_type_4(x, y, a, color) :
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
-    turtle.right(90)
 
-def square(x, y, a, color) :
-
-    '''
-    Function, drawing square.
-    :param x: upper left corner coordinate x
-    :param y: upper left corner coordinate y
-    :param a: side length of a square
-    :return: None
-    '''
-
+def square(x, y, a,) :
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
@@ -182,10 +124,10 @@ def square(x, y, a, color) :
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
-    turtle.right(180)
+    turtle.right(90)
+
 
 def triangle_type_3(x, y, a) :
-
     '''
     Function, drawing square.
     :param x: upper left corner coordinate x
@@ -204,12 +146,13 @@ def triangle_type_3(x, y, a) :
     turtle.forward(a)
     turtle.right(135)
     turtle.forward((a*a*2)**0.5)
-    turtle.right(90)
+    turtle.right(45)
 
 
-def rectangle_type_1(x, y, a, color) :
 
+def rectangle_type_1(x, y, a) :
     '''
+
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
     :param a: side length of a triangle
@@ -228,18 +171,8 @@ def rectangle_type_1(x, y, a, color) :
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
-    turtle.right(45)
 
-def triangle_type_6(x, y, a, color) :
-
-    '''
-    Function, drawing triangle.
-    :param x: upper left corner coordinate x
-    :param y: upper left corner coordinate y
-    :param a: side length of a triangle
-    :return: None
-    '''
-
+def triangle_type_6(x, y, a) :
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -250,18 +183,8 @@ def triangle_type_6(x, y, a, color) :
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
-    turtle.right(45)
 
-def triangle_type_7(x, y, a, color) :
-
-    '''
-    Function, drawing triangle.
-    :param x: upper left corner coordinate x
-    :param y: upper left corner coordinate y
-    :param a: side length of a triangle
-    :return: None
-    '''
-
+def triangle_type_7(x, y, a) :
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -271,17 +194,9 @@ def triangle_type_7(x, y, a, color) :
     turtle.forward(b)
     turtle.right(135)
     turtle.forward(a)
+    turtle.right(90)
 
-def triangle_type_8(x, y, a, color) :
-
-    '''
-    Function, drawing triangle.
-    :param x: upper left corner coordinate x
-    :param y: upper left corner coordinate y
-    :param a: side length of a triangle
-    :return: None
-    '''
-
+def triangle_type_8(x, y, a) :
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -291,11 +206,11 @@ def triangle_type_8(x, y, a, color) :
     turtle.forward(a)
     turtle.right(135)
     turtle.forward(b)
-    turtle.right(90)
+
 
 def rectangle_type_4(x, y, a, b) :
-
     '''
+
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
     :param a: side length of a rectangle
@@ -314,12 +229,11 @@ def rectangle_type_4(x, y, a, b) :
     turtle.forward(a)
     turtle.right(45)
     turtle.forward(b)
-    turtle.right(45)
-
+    turtle.right(135)
 
 def rectangle_type_3(x, y, a, b) :
-
     '''
+
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
     :param a: side length of a rectangle
@@ -339,6 +253,13 @@ def rectangle_type_3(x, y, a, b) :
     turtle.forward(a)
     turtle.right(45)
     turtle.forward(b)
-    turtle.right(45)
 
-def main():
+
+def main() :
+  rectangle_type_4(-300, 300, 60, 100)
+  square(-180, 227, 90)
+  triangle_type_3(-355, 140, 170)
+  triangle_type_7(-355, -35, 170)
+  triangle_type_2(-180, 0, 50)
+  
+main()
