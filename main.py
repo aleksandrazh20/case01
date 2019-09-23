@@ -342,17 +342,3 @@ def rectangle_type_3(x, y, a, b) :
     turtle.right(45)
 
 def main():
-
-    '''
-     Main function.
-    :return: None
-     '''
-
-    rectangle_type_4(50, 199, 20, 24)
-    square(75, 162, 20, 'red')
-    triangle_type_3(45, 175, 30)
-    triangle_type_7(15, 145, 30, 'red')
-    turtle.done()
-
-if __name__ == '__main__':
-    main()
