@@ -263,5 +263,5 @@ def rabbit() :
   triangle_type_2(-520, 180, 50)
   triangle_type_3(-665, 90, 90)
   triangle_type_6(-570, 60, 60)
-rabbit()
+
 
