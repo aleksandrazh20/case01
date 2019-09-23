@@ -1,5 +1,7 @@
 # case1
-# Vlasov V, Anufrieva A, Zhuravleva A.
+# Vlasov V
+# Anufrieva A
+# Zhuravleva A (45%)
 def triangle_type_1(x, y, a, color) :
     # TODO: (Nastya) Paint a triangle.
     pass
@@ -430,6 +432,7 @@ def rabbit() :
 
 rabbit()
 
+
 def person() :
     rectangle_type_1(450, 380, 70)
     triangle_type_8(410, 280, 110)
@@ -440,6 +443,7 @@ def person() :
     triangle_type_3(440, 97, 50)
 
 person()
+
 
 def ship() :
     triangle_type_6(100, -10, 50)
@@ -452,6 +456,30 @@ def ship() :
 
 ship()
 
+def space() :
+  triangle_type_5(-600, -90, 42)
+  triangle_type_8(-597, -93, 55)
+  triangle_type_2(-600, -93, 78)
+  triangle_type_4(-542, -150, 78)
+  rectangle_type_1(-628, -208, 31)
+  triangle_type_2(-620, -233, 30)
+  triangle_type_6(-538, -218, 42)
+
+space()
+
+
+
+
+def runner() :
+  rectangle_type_1(500, -90, 40)
+  triangle_type_7(520, -155, 70)
+  rectangle_type_4(448, -125, 30, 50)
+  triangle_type_3(479, -200, 70)
+  triangle_type_7(455, -260, 30)
+  triangle_type_2(552, -260, 30)
+  triangle_type_4(549, -280, 30)
+
+runner()
 
 def chicken() :
     triangle_type_5(0, 320, 40)
@@ -463,4 +491,3 @@ def chicken() :
     triangle_type_2(98, 318, 28)
 
 chicken()
-
