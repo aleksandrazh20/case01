@@ -252,6 +252,7 @@ def triangle_type_6(x, y, a) :
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
+    turtle.right(90)
 
 def triangle_type_7(x, y, a) :
 
@@ -352,7 +353,8 @@ def fish():
     rectangle_type_4(-240, 323, 30, 30)
     triangle_type_7(-220, 300, 18)
     triangle_type_3(-241, 300, 18)
-fish()
+
+
 
 def fly() :
     rectangle_type_2(-250, -10, 30, 30)
@@ -362,14 +364,35 @@ def fly() :
     triangle_type_5(-336, -92, 30)
     triangle_type_1(-356, -71, 30)
     rectangle_type_1(-405, -42, 30)
-fly()
+
+
 
 def rabbit() :
-  rectangle_type_4(-300, 300, 60, 100)
-  square(-180, 227, 90)
-  triangle_type_3(-355, 140, 170)
-  triangle_type_7(-355, -35, 170)
-  triangle_type_2(-180, 0, 50)
-  triangle_type_3(-360, -105, 110)
-  triangle_type_6(-245, -140, 70)
-rabbit()
+  rectangle_type_4(-600, 380, 40, 70)
+  square(-520, 325, 70)
+  triangle_type_3(-665, 290, 140)
+  triangle_type_7(-665, 145, 140)
+  triangle_type_2(-520, 180, 50)
+  triangle_type_3(-665, 90, 90)
+  triangle_type_6(-570, 60, 60)
+
+
+
+def person() :
+    rectangle_type_1(450, 380, 70)
+    triangle_type_8(410, 280, 110)
+    triangle_type_7(520, 280, 110)
+    triangle_type_3(450, 170, 70)
+    triangle_type_6(520, 170, 70)
+    triangle_type_8(560, 97, 50)
+    triangle_type_3(440, 97, 50)
+
+
+
+def ship() :
+    triangle_type_6(100, -10, 50)
+    triangle_type_2(100, -60, 90)
+    triangle_type_3(15, -80, 80)
+    triangle_type_5(105, -190, 50)
+
+ship()
