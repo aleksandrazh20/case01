@@ -1,6 +1,6 @@
 # case1
-# Vlasov V
-# Anufrieva A
+# Vlasov V (20%)
+# Anufrieva A (55%)
 # Zhuravleva A (45%)
 def triangle_type_1(x, y, a, color) :
     # TODO: (Nastya) Paint a triangle.
