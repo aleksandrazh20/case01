@@ -77,6 +77,7 @@ def triangle_type_5(x, y, a) :
     turtle.forward(a)
     turtle.right(135)
     turtle.forward(b)
+    turtle.right(180)
 
 def rectangle_type_2(x, y, a, b) :
     turtle.up()
@@ -89,6 +90,7 @@ def rectangle_type_2(x, y, a, b) :
     turtle.forward(a)
     turtle.right(135)
     turtle.forward(b)
+    turtle.right(45)
 
 def triangle_type_1(x, y, a):
     b = (a * a + a * a) ** 0.5
@@ -112,6 +114,7 @@ def triangle_type_4(x, y, a) :
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
+    turtle.right(45)
 
 def square(x, y, a,) :
     turtle.up()
@@ -171,6 +174,7 @@ def rectangle_type_1(x, y, a) :
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
+    turtle.right(45)
 
 def triangle_type_6(x, y, a) :
     b = (a * a + a * a) ** 0.5
@@ -206,6 +210,7 @@ def triangle_type_8(x, y, a) :
     turtle.forward(a)
     turtle.right(135)
     turtle.forward(b)
+    turtle.right(135)
 
 
 def rectangle_type_4(x, y, a, b) :
@@ -263,4 +268,22 @@ def rabbit() :
   triangle_type_2(-180, 0, 50)
   triangle_type_3(-360, -105, 110)
   triangle_type_6(-245, -140, 70)
-rabbit()
+
+
+def fish():
+    triangle_type_3(-199, 299, 60)
+    triangle_type_8(-200, 360, 60)
+    rectangle_type_1(-198, 322, 33)
+    triangle_type_2(-135, 330, 50)
+    rectangle_type_4(-240, 323, 30, 30)
+    triangle_type_7(-220, 300, 18)
+    triangle_type_3(-241, 300, 18)
+fish()
+
+def fly() :
+    rectangle_type_2(-250, -10, 30, 30)
+    triangle_type_5(-313, -30, 30)
+    triangle_type_2(-273, -30, 60)
+    triangle_type_4(-272, -30, 60)
+    triangle_type_5(-336, -92, 30)
+fly()
