@@ -54,6 +54,15 @@ def rectangle_type_4 (x, y, a, color) :
 import turtle
 
 def triangle_type_2(x, y, a) :
+
+    '''
+    Function, drawing triangle.
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a triangle
+    :return: None
+    '''
+
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -67,6 +76,15 @@ def triangle_type_2(x, y, a) :
     turtle.right(90)
 
 def triangle_type_5(x, y, a) :
+
+    '''
+    Function, drawing triangle.
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a triangle
+    :return: None
+    '''
+
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -80,6 +98,16 @@ def triangle_type_5(x, y, a) :
     turtle.right(180)
 
 def rectangle_type_2(x, y, a, b) :
+
+    '''
+    Function, drawing rectangle.
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a rectangle
+    :param b: side length of a rectangle
+    :return: None
+    '''
+
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
@@ -93,6 +121,15 @@ def rectangle_type_2(x, y, a, b) :
     turtle.right(45)
 
 def triangle_type_1(x, y, a):
+
+    '''
+    Function, drawing triangle.
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a triangle
+    :return: None
+    '''
+
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -102,8 +139,16 @@ def triangle_type_1(x, y, a):
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
+    turtle.right(135)
 
 def triangle_type_4(x, y, a) :
+    '''
+    Function, drawing triangle.
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a triangle
+    :return: None
+    '''
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -117,6 +162,15 @@ def triangle_type_4(x, y, a) :
     turtle.right(45)
 
 def square(x, y, a,) :
+
+    '''
+    Function, drawing square.
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a square
+    :return: None
+    '''
+
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
@@ -131,8 +185,9 @@ def square(x, y, a,) :
 
 
 def triangle_type_3(x, y, a) :
+
     '''
-    Function, drawing square.
+    Function, drawing triangle.
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
     :param a: side length of a triangle
@@ -154,11 +209,12 @@ def triangle_type_3(x, y, a) :
 
 
 def rectangle_type_1(x, y, a) :
-    '''
 
+    '''
+    Function, drawing rectangle.
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
-    :param a: side length of a triangle
+    :param a: side length of a rectangle
     :return: None
     '''
 
@@ -177,6 +233,15 @@ def rectangle_type_1(x, y, a) :
     turtle.right(45)
 
 def triangle_type_6(x, y, a) :
+
+    '''
+     Function, drawing triangle.
+     :param x: upper left corner coordinate x
+     :param y: upper left corner coordinate y
+     :param a: side length of a triangle
+     :return: None
+     '''
+
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -189,6 +254,15 @@ def triangle_type_6(x, y, a) :
     turtle.forward(a)
 
 def triangle_type_7(x, y, a) :
+
+    '''
+     Function, drawing triangle.
+     :param x: upper left corner coordinate x
+     :param y: upper left corner coordinate y
+     :param a: side length of a triangle
+     :return: None
+     '''
+
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -201,6 +275,15 @@ def triangle_type_7(x, y, a) :
     turtle.right(90)
 
 def triangle_type_8(x, y, a) :
+
+    '''
+     Function, drawing triangle.
+     :param x: upper left corner coordinate x
+     :param y: upper left corner coordinate y
+     :param a: side length of a triangle
+     :return: None
+     '''
+
     b = (a * a + a * a) ** 0.5
     turtle.up()
     turtle.setposition(x, y)
@@ -268,7 +351,7 @@ def rabbit() :
   triangle_type_2(-180, 0, 50)
   triangle_type_3(-360, -105, 110)
   triangle_type_6(-245, -140, 70)
-
+rabbit()
 
 def fish():
     triangle_type_3(-199, 299, 60)
@@ -286,4 +369,6 @@ def fly() :
     triangle_type_2(-273, -30, 60)
     triangle_type_4(-272, -30, 60)
     triangle_type_5(-336, -92, 30)
+    triangle_type_1(-356, -71, 30)
+    rectangle_type_1(-405, -42, 30)
 fly()
