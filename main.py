@@ -261,5 +261,11 @@ def main() :
   triangle_type_3(-355, 140, 170)
   triangle_type_7(-355, -35, 170)
   triangle_type_2(-180, 0, 50)
+
+
+
+
+
+
   
 main()
