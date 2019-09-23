@@ -67,6 +67,9 @@ def triangle_type_2(x, y, a) :
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
+    turtle.color("light blue")
+    turtle.fillcolor("light blue")
+    turtle.begin_fill()
     turtle.right(45)
     turtle.forward(a)
     turtle.right(90)
@@ -74,6 +77,7 @@ def triangle_type_2(x, y, a) :
     turtle.right(135)
     turtle.forward(b)
     turtle.right(90)
+    turtle.end_fill()
 
 def triangle_type_5(x, y, a) :
 
@@ -89,6 +93,9 @@ def triangle_type_5(x, y, a) :
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
+    turtle.color("pink")
+    turtle.fillcolor("pink")
+    turtle.begin_fill()
     turtle.left(45)
     turtle.forward(a)
     turtle.right(90)
@@ -96,6 +103,8 @@ def triangle_type_5(x, y, a) :
     turtle.right(135)
     turtle.forward(b)
     turtle.right(180)
+    turtle.end_fill()
+
 
 def rectangle_type_2(x, y, a, b) :
 
@@ -111,6 +120,9 @@ def rectangle_type_2(x, y, a, b) :
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
+    turtle.color("red")
+    turtle.fillcolor("red")
+    turtle.begin_fill()
     turtle.forward(a)
     turtle.right(135)
     turtle.forward(b)
@@ -119,6 +131,7 @@ def rectangle_type_2(x, y, a, b) :
     turtle.right(135)
     turtle.forward(b)
     turtle.right(45)
+    turtle.end_fill()
 
 def triangle_type_1(x, y, a):
 
@@ -134,12 +147,16 @@ def triangle_type_1(x, y, a):
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
+    turtle.color("green")
+    turtle.fillcolor("green")
+    turtle.begin_fill()
     turtle.forward(b)
     turtle.right(135)
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
     turtle.right(135)
+    turtle.end_fill()
 
 def triangle_type_4(x, y, a) :
     '''
@@ -153,6 +170,9 @@ def triangle_type_4(x, y, a) :
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
+    turtle.color("yellow")
+    turtle.fillcolor("yellow")
+    turtle.begin_fill()
     turtle.right(90)
     turtle.forward(b)
     turtle.right(135)
@@ -160,6 +180,7 @@ def triangle_type_4(x, y, a) :
     turtle.right(90)
     turtle.forward(a)
     turtle.right(45)
+    turtle.end_fill()
 
 def square(x, y, a,) :
 
@@ -174,6 +195,9 @@ def square(x, y, a,) :
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
+    turtle.color("blue")
+    turtle.fillcolor("blue")
+    turtle.begin_fill()
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
@@ -182,6 +206,7 @@ def square(x, y, a,) :
     turtle.right(90)
     turtle.forward(a)
     turtle.right(90)
+    turtle.end_fill()
 
 
 def triangle_type_3(x, y, a) :
@@ -195,16 +220,20 @@ def triangle_type_3(x, y, a) :
     '''
 
     turtle.up()
-    turtle.setposition(x,y)
+    turtle.setposition(x,y,)
     turtle.forward(a)
     turtle.right(90)
     turtle.down()
+    turtle.color("red")
+    turtle.fillcolor("red")
+    turtle.begin_fill()
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
     turtle.right(135)
     turtle.forward((a*a*2)**0.5)
     turtle.right(45)
+    turtle.end_fill()
 
 
 
@@ -222,6 +251,9 @@ def rectangle_type_1(x, y, a) :
     turtle.setposition(x,y)
     turtle.forward(a)
     turtle.down()
+    turtle.color("light yellow")
+    turtle.fillcolor("light yellow")
+    turtle.begin_fill()
     turtle.right(45)
     turtle.forward(a)
     turtle.right(90)
@@ -231,6 +263,7 @@ def rectangle_type_1(x, y, a) :
     turtle.right(90)
     turtle.forward(a)
     turtle.right(45)
+    turtle.end_fill()
 
 def triangle_type_6(x, y, a) :
 
@@ -246,13 +279,16 @@ def triangle_type_6(x, y, a) :
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
+    turtle.color("black")
+    turtle.fillcolor("black")
+    turtle.begin_fill()
     turtle.right(45)
     turtle.forward(b)
     turtle.right(135)
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
-    turtle.right(90)
+    turtle.end_fill()
 
 def triangle_type_7(x, y, a) :
 
@@ -268,12 +304,16 @@ def triangle_type_7(x, y, a) :
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
+    turtle.color("grey")
+    turtle.fillcolor("grey")
+    turtle.begin_fill()
     turtle.forward(a)
     turtle.right(135)
     turtle.forward(b)
     turtle.right(135)
     turtle.forward(a)
     turtle.right(90)
+    turtle.end_fill()
 
 def triangle_type_8(x, y, a) :
 
@@ -289,12 +329,16 @@ def triangle_type_8(x, y, a) :
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
+    turtle.color("purple")
+    turtle.fillcolor('purple')
+    turtle.begin_fill()
     turtle.forward(a)
     turtle.right(90)
     turtle.forward(a)
     turtle.right(135)
     turtle.forward(b)
     turtle.right(135)
+    turtle.end_fill()
 
 
 def rectangle_type_4(x, y, a, b) :
@@ -311,6 +355,9 @@ def rectangle_type_4(x, y, a, b) :
     turtle.up()
     turtle.setposition(x,y)
     turtle.down()
+    turtle.color("light green")
+    turtle.fillcolor("light green")
+    turtle.begin_fill()
     turtle.forward(a)
     turtle.right(45)
     turtle.forward(b)
@@ -319,6 +366,7 @@ def rectangle_type_4(x, y, a, b) :
     turtle.right(45)
     turtle.forward(b)
     turtle.right(135)
+    turtle.end_fill()
 
 def rectangle_type_3(x, y, a, b) :
     '''
@@ -334,6 +382,9 @@ def rectangle_type_3(x, y, a, b) :
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
+    turtle.color("orange")
+    turtle.fillcolor("orange")
+    turtle.begin_fill()
     turtle.right(45)
     turtle.forward(a)
     turtle.right(45)
@@ -342,6 +393,7 @@ def rectangle_type_3(x, y, a, b) :
     turtle.forward(a)
     turtle.right(45)
     turtle.forward(b)
+    turtle.end_fill()
 
 
 
@@ -353,8 +405,7 @@ def fish():
     rectangle_type_4(-240, 323, 30, 30)
     triangle_type_7(-220, 300, 18)
     triangle_type_3(-241, 300, 18)
-
-
+fish()
 
 def fly() :
     rectangle_type_2(-250, -10, 30, 30)
@@ -364,37 +415,14 @@ def fly() :
     triangle_type_5(-336, -92, 30)
     triangle_type_1(-356, -71, 30)
     rectangle_type_1(-405, -42, 30)
-
-
+fly()
 
 def rabbit() :
-  rectangle_type_4(-600, 380, 40, 70)
-  square(-520, 325, 70)
-  triangle_type_3(-665, 290, 140)
-  triangle_type_7(-665, 145, 140)
-  triangle_type_2(-520, 180, 50)
-  triangle_type_3(-665, 90, 90)
-  triangle_type_6(-570, 60, 60)
-
-
-
-def person() :
-    rectangle_type_1(450, 380, 70)
-    triangle_type_8(410, 280, 110)
-    triangle_type_7(520, 280, 110)
-    triangle_type_3(450, 170, 70)
-    triangle_type_6(520, 170, 70)
-    triangle_type_8(560, 97, 50)
-    triangle_type_3(440, 97, 50)
-
-
-
-def ship() :
-    triangle_type_6(100, -10, 50)
-    triangle_type_2(100, -60, 100)
-    triangle_type_3(5, -80, 90)
-    triangle_type_5(105, -200, 50)
-    rectangle_type_1(125, -125, 50)
-
-
-ship()
+  rectangle_type_4(-300, 300, 60, 100)
+  square(-180, 227, 90)
+  triangle_type_3(-355, 140, 170)
+  triangle_type_7(-355, -35, 170)
+  triangle_type_2(-180, 0, 50)
+  triangle_type_3(-360, -105, 110)
+  triangle_type_6(-245, -140, 70)
+rabbit()
