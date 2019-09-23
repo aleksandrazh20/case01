@@ -265,4 +265,3 @@ def rabbit() :
   triangle_type_6(-570, 60, 60)
 rabbit()
 
-def person() :
