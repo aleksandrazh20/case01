@@ -395,4 +395,5 @@ def ship() :
     triangle_type_3(15, -80, 80)
     triangle_type_5(105, -190, 50)
 
+
 ship()
