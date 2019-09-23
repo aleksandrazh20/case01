@@ -391,9 +391,10 @@ def person() :
 
 def ship() :
     triangle_type_6(100, -10, 50)
-    triangle_type_2(100, -60, 90)
-    triangle_type_3(15, -80, 80)
-    triangle_type_5(105, -190, 50)
+    triangle_type_2(100, -60, 100)
+    triangle_type_3(5, -80, 90)
+    triangle_type_5(105, -200, 50)
+    rectangle_type_1(125, -125, 50)
 
 
 ship()
