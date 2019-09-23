@@ -405,7 +405,7 @@ def fish():
     triangle_type_7(-220, 300, 18)
     triangle_type_3(-241, 300, 18)
 
-
+fish()
 
 def fly() :
     rectangle_type_2(-250, -10, 30, 30)
@@ -416,6 +416,7 @@ def fly() :
     triangle_type_1(-356, -71, 30)
     rectangle_type_1(-405, -42, 30)
 
+fly()
 
 
 def rabbit() :
@@ -427,7 +428,7 @@ def rabbit() :
   triangle_type_3(-665, 90, 90)
   triangle_type_6(-570, 60, 60)
 
-
+rabbit()
 
 def person() :
     rectangle_type_1(450, 380, 70)
@@ -438,7 +439,7 @@ def person() :
     triangle_type_8(560, 97, 50)
     triangle_type_3(440, 97, 50)
 
-
+person()
 
 def ship() :
     triangle_type_6(100, -10, 50)
@@ -449,7 +450,7 @@ def ship() :
     triangle_type_1(70, -205, 80)
     rectangle_type_4(-5, -205, 60, 80)
 
-
+ship()
 
 
 def chicken() :
