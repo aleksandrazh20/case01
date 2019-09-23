@@ -256,11 +256,11 @@ def rectangle_type_3(x, y, a, b) :
 
 
 def rabbit() :
-  rectangle_type_4(-300, 300, 60, 100)
-  square(-180, 227, 90)
-  triangle_type_3(-355, 140, 170)
-  triangle_type_7(-355, -35, 170)
-  triangle_type_2(-180, 0, 50)
-  triangle_type_3(-360, -105, 110)
-  triangle_type_6(-245, -140, 70)
+  rectangle_type_4(-600, 380, 40, 70)
+  square(-520, 325, 70)
+  triangle_type_3(-665, 290, 140)
+  triangle_type_7(-665, 145, 140)
+  triangle_type_2(-520, 180, 50)
+  triangle_type_3(-665, 90, 90)
+  triangle_type_6(-570, 60, 60)
 rabbit()
