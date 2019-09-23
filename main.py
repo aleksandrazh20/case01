@@ -415,6 +415,7 @@ def fly() :
     triangle_type_5(-336, -92, 30)
     triangle_type_1(-356, -71, 30)
     rectangle_type_1(-405, -42, 30)
+    
 fly()
 
 def rabbit() :
