@@ -255,11 +255,12 @@ def rectangle_type_3(x, y, a, b) :
     turtle.forward(b)
 
 
-def main() :
+def rabbit() :
   rectangle_type_4(-300, 300, 60, 100)
   square(-180, 227, 90)
   triangle_type_3(-355, 140, 170)
   triangle_type_7(-355, -35, 170)
   triangle_type_2(-180, 0, 50)
-  
-main()
+  triangle_type_3(-360, -105, 110)
+  triangle_type_6(-245, -140, 70)
+rabbit()
